@@ -1,0 +1,106 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;}
+
+body{font-family:calibri;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80");
+    height:135vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:#ddd;
+    overflow-x: hidden;
+}
+
+.nav_header{display: none;}
+
+/* for travel title*/
+#home_nav h2{margin-left:70px;
+letter-spacing: 2px;
+font-family: cursive;
+color:red;}
+
+#home_nav{display: flex;
+justify-content:space-between;}
+
+.links_container .links{display: flex;
+list-style-type: none;
+margin-right:80px;
+}
+
+.links_container .links li a{text-decoration:none;
+letter-spacing: 2px;
+padding-left:10px;
+color:white;}
+
+#travel{padding-right:50px;}
+
+.scroll_link{padding-right:30px;
+text-transform: uppercase;}
+
+#home_nav{margin-top:20px;}
+
+/*for the title of scroll project*/
+.banner {
+    margin:13% auto;
+    text-align:center;
+}
+
+.banner .banner_contanier h1{font-size:50px;
+text-transform: uppercase;
+letter-spacing: 3px;
+padding-bottom:10px;}
+
+.banner .banner_contanier a{text-decoration: none;
+padding:10px 10px;
+font-size:20px;
+text-transform: uppercase;
+letter-spacing: 3px;}
+
+.banner .banner_contanier .scroll{border:2px solid #ddd;
+color:white;
+}
+
+.section{color:black;
+font-weight: bolder;
+text-transform:uppercase;
+letter-spacing: 3px;
+text-align:center;
+height:70vh;
+}
+
+#about{background-color: #ddd;}
+#services{background-color:#dddd;}
+#tours{background-color:#ddff;}
+.title h2 span{color:turquoise;}
+
+footer{height:150px;
+text-align:center;
+padding-top:40px;
+letter-spacing: 3px;
+background-color:black;}
+
+.crosslink a:hover{background-color:turquoise;}
+
+.crosslink{margin-top:-90px;
+margin-left:1060px;
+width:20px;}
+/*for toggle */
+ .newlinks{display:block;
+}
+
+/*for responsive layout*/
+@media only screen and (max-width:900px){
+    .nav_header{display:block;}
+        #home_nav{margin-top:12px;}
+    .links_container .links {display:none;
+        position:aboslute;
+    margin-right:80px;}
+    .links_container .links li{padding:10px;
+        
+ }
+    .links_container .links  li a{color:black;}
+    #home_nav{background-color:beige;
+    padding:15px;
+margin-top:-10px;}
+    }
+

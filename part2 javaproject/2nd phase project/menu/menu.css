@@ -1,0 +1,56 @@
+
+*{margin:0;
+padding:0;
+box-sizing: border-box;}
+
+ .menu .title h2 {margin:40px 500px;
+font-family:calibri;
+font-size:35px;
+letter-spacing: 2px;
+border-bottom:2px solid #ddd;
+padding-bottom:10px;
+width:170px;}
+
+.btn_container{margin-left:400px;
+margin-bottom:35px;}
+
+.btn_container .filter_btn{font-size:16px;
+width:83px;
+background-color:white;
+padding:10px;
+margin-left:7px;
+height:35px;
+border-radius:7px;
+color:orange;
+border:2px solid orange;}
+
+.filter_btn:hover{background-color:orange;
+color:#ddd}
+
+/*appling grid layout */
+.section_center{
+    display:grid;
+    grid-template-columns: repeat(2,600px);
+}
+
+.section_center .menu_item .photo{
+    width:210px;
+    height:130px;
+    margin-top:15px;
+    border:2px solid orange;
+    border-radius:10px;
+    margin-left:130px;
+}
+
+hr{width: 210px; margin-left:20px; margin-bottom:5px; margin-top:3px;}
+
+.menu_item{display:flex;}
+
+.menu_item .price{float:right;
+margin-top:-15px;}
+
+.menu_item header{margin-left:20px;
+margin-top:20px;}
+
+.menu_item .item_text{margin-left:20px;}
+
